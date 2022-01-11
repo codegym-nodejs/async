@@ -1,16 +1,16 @@
 #Bài 1
-Chuyển hàm loadJson sang hàm async:
+##Chuyển hàm loadJson sang hàm async:
 
   function loadJson(url) {
-  return axios.get(url)
-    .then(response => {
-      if (response.status == 200) {
-        return response;
-      } else {
-        throw new Error(response.status);
-      }
-    })
-}
+    return axios.get(url)
+      .then(response => {
+        if (response.status == 200) {
+          return response;
+        } else {
+          throw new Error(response.status);
+        }
+      })
+  }
 
 loadJson('https://tutorialzine.com/misc/files/example.json').then(res => console.log(res.data));
 

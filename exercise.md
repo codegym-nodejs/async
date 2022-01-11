@@ -49,3 +49,9 @@
   ```
 # Bài 4:
   Sử dụng async, await để đọc nội dung của nhiều file trong 1 directory.
+
+```
+  Nhóm 1: Đình Hoàng, A. Hiệp, Xuân Huy
+  Nhóm 2: Triệu Huy Hoàng, Đào Vinh, Vũ Tùng, Sinh
+  Nhóm 3: A Hữu, Gia Tâm, Đàm Hồng, Nhất Hoàng
+```
